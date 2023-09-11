@@ -6,7 +6,8 @@ import { authOptions } from "./api/auth/[...nextauth]";
 const Home = () => {
   return (
     <div>
-      test <button onClick={() => signIn()}>Continue to Okta</button>
+      testing
+      <button onClick={() => signIn()}>Continue to Okta</button>
     </div>
   );
 };
