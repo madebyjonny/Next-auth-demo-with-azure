@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       testing
+      <img src="/cat.jpg" />
       <button onClick={() => signIn()}>Continue to Okta</button>
     </div>
   );
